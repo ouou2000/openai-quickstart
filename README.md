@@ -149,7 +149,7 @@ Django Peng - pjt73651@email.com
 Day1 基于ChatGPT的课程总结
 作业链接：
 
-Day1 基于ChatGPT的课程总结
+Day2 作业：
 1. GPT-4V的使用 
 1.1 上传自己手写的图片到images文件夹，可命名为gpt-4v.jpg；
 commit link：https://github.com/ouou2000/openai-quickstart/commit/2963a228b1dd5ce0963299f2acc766cad14a2fbc
@@ -170,4 +170,10 @@ https://github.com/ouou2000/openai-quickstart/blob/main/openai-translator/ai_tra
 https://github.com/ouou2000/openai-quickstart/blob/main/openai-translator/ai_translator/utils/argument_parser.py
 https://github.com/ouou2000/openai-quickstart/blob/main/openai-translator/ai_translator/model/openai_model.py
 
+远行结果 link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day2
+
+3. 扩展langchain chains
+3.1 扩展chains，使其支持生物、计算机和汉语文学老师等学科的提示词模板及对应 Chains问答。
+commit link：https://github.com/ouou2000/openai-quickstart/commit/6ee597625e88080d81766e8703b089c3b7a5beba
+code link：https://github.com/ouou2000/openai-quickstart/blob/main/langchain/jupyter/chains/router_chain.ipynb
 远行结果 link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day2
