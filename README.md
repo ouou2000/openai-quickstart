@@ -147,7 +147,18 @@ Django Peng - pjt73651@email.com
 项目链接: https://github.com/DjangoPeng/openai-quickstart
 
 Day1 基于ChatGPT的课程总结
-作业链接：
+总结：关于提示词，首先设定一个角色例如“你是一名人工智能领域的专家教授，你在人工智能领域有非常深入的知识。你非常擅长使用通俗易懂的方式为学生讲解机器学习的算法知识，同时你的文字功底也很棒，你非常熟练撰写各种培训报告，能够将各种培训中的内容很好的记录下来，并进行总结，写成一份课程总结。”
+然后设定目标，例如要写一份课程总结，目标越详细越好并且给予足够的条件和限制，例如只专注于课程内容，而不需要记录培训人员相关的信息，同时上传培训文件，防止发散。因此在实验过程中，由于文件大小的限制，我自行将培训PDF进行切割，以10页为一份，然后让GPT根据PDF的内容以及课程目录去生成课程总结，最后发现生成的结果会更贴近培训的内容，同时可以根据生成的结果进一步调整提示词，例如让GPT只关心课程的内容，而不用关心培训的人员等，进一步对目标进行限制！
+
+commit link：
+https://github.com/ouou2000/openai-quickstart/commit/4eda68ff66857defa35384eaa00b05c432bc8c63
+https://github.com/ouou2000/openai-quickstart/commit/2caad40472040bbd84d087a5fbdfa5159108283a
+
+总结link：https://github.com/ouou2000/openai-quickstart/blob/main/ChatGPT%E7%94%9F%E6%88%90%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93.pdf
+
+运行截图link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day1
+
+提示词link：https://github.com/ouou2000/openai-quickstart/blob/main/%E5%9F%BA%E4%BA%8EChatGPT%E7%9A%84%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D.txt
 
 Day2 作业：
 1. GPT-4V的使用 
@@ -160,7 +171,7 @@ commit link：https://github.com/ouou2000/openai-quickstart/commit/01efe0eb99d47
 code link：https://github.com/ouou2000/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb
 远行结果 link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day2
 
-2. ai translator的使用
+1. ai translator的使用
 2.1 ai translator中，添加2种以上的其他语言对翻译
 实现命令行参数选择翻译目标语言
 commit link：https://github.com/ouou2000/openai-quickstart/commit/d523c280ae2f567f86dc6476b6345a1dd2745d9d
