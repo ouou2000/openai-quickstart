@@ -159,3 +159,15 @@ commit link：https://github.com/ouou2000/openai-quickstart/commit/2963a228b1dd5
 commit link：https://github.com/ouou2000/openai-quickstart/commit/01efe0eb99d47137c848afebd8b4955fb71eb992
 code link：https://github.com/ouou2000/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb
 远行结果 link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day2
+
+2. ai translator的使用
+2.1 ai translator中，添加2种以上的其他语言对翻译
+实现命令行参数选择翻译目标语言
+commit link：https://github.com/ouou2000/openai-quickstart/commit/d523c280ae2f567f86dc6476b6345a1dd2745d9d
+
+code link：
+https://github.com/ouou2000/openai-quickstart/blob/main/openai-translator/ai_translator/main.py
+https://github.com/ouou2000/openai-quickstart/blob/main/openai-translator/ai_translator/utils/argument_parser.py
+https://github.com/ouou2000/openai-quickstart/blob/main/openai-translator/ai_translator/model/openai_model.py
+
+远行结果 link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day2
