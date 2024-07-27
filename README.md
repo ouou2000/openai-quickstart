@@ -148,3 +148,14 @@ Django Peng - pjt73651@email.com
 
 Day1 基于ChatGPT的课程总结
 作业链接：
+
+Day1 基于ChatGPT的课程总结
+1. GPT-4V的使用 
+1.1 上传自己手写的图片到images文件夹，可命名为gpt-4v.jpg；
+commit link：https://github.com/ouou2000/openai-quickstart/commit/2963a228b1dd5ce0963299f2acc766cad14a2fbc
+1.2 修改query_base64_image_description的方法描述，分析gpt-4v.jpg图片；
+1.3 输出分析结果，并使用函数对输出进行渲染，渲染成Markdown格式使结果更易读；
+结果：实现了对gpt-4v.jpg图片的分析，并且修改了query_base64_image_description函数，支持了历史对话
+commit link：https://github.com/ouou2000/openai-quickstart/commit/01efe0eb99d47137c848afebd8b4955fb71eb992
+code link：https://github.com/ouou2000/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb
+远行结果 link：https://github.com/ouou2000/openai-quickstart/tree/main/code_run_screenshot/day2
